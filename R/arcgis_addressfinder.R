@@ -35,7 +35,7 @@ addressFinder <- function(address_table, url) {
     )
 
   token <-
-    postForm(url) # Get limited time access token
+    suppressWarnings(RCurl::postForm(url)) # Get limited time access token
   if (is.raw(token)) {
     token <- rawToChar(token)
   }
