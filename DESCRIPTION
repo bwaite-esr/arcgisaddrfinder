@@ -1,7 +1,7 @@
 Package: arcgisaddrfinder
 Type: Package
 Title: Arcgis Address finder API wrapper
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Author: Ben Waite
 Maintainer: Ben Waite <ben.waite@esr.cri.nz>
 Description: Wrapper for Arcgis API address requests.
